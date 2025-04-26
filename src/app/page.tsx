@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col">
       <Header />
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden pt-20">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div 
           className="absolute inset-0 z-0"
@@ -18,13 +18,14 @@ export default function Home() {
             backgroundImage: 'url("/hero-bg.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
+            marginTop: '-80px', // Adjust this value based on your header height
           }}
         >
           <div className="absolute inset-0 bg-black/50" />
         </div>
 
         {/* Hero Content */}
-        <div className="container mx-auto px-4 z-10">
+        <div className="container mx-auto px-4 z-10 relative">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

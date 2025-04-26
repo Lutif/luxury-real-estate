@@ -37,6 +37,51 @@ const images = [
     params: '?auto=format&fit=crop&w=800&q=80'
   },
   {
+    url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c',
+    path: 'public/properties/oceanfront-1.jpg',
+    params: '?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750',
+    path: 'public/properties/sky-penthouse-1.jpg',
+    params: '?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811',
+    path: 'public/properties/med-villa-1.jpg',
+    params: '?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
+    path: 'public/properties/loft-1.jpg',
+    params: '?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750',
+    path: 'public/properties/garden-apt-1.jpg',
+    params: '?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+    path: 'public/properties/mountain-1.jpg',
+    params: '?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750',
+    path: 'public/properties/beach-1.jpg',
+    params: '?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
+    path: 'public/properties/city-apt-1.jpg',
+    params: '?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+    path: 'public/properties/country-1.jpg',
+    params: '?auto=format&fit=crop&w=800&q=80'
+  },
+  {
     url: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330',
     path: 'public/testimonials/sarah.jpg',
     params: '?auto=format&fit=crop&w=200&q=80'
